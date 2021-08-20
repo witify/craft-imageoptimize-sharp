@@ -132,6 +132,7 @@ class SharpImageTransform extends ImageTransform
                     $edits[$format]['trellisQuantisation'] = true;
                     $edits[$format]['overshootDeringing'] = true;
                     $edits[$format]['optimizeScans'] = true;
+                    $edits['flatten']['background'] = 'rgb(255,255,255)';
                     break;
                 case 'png':
                     // param: progressive
